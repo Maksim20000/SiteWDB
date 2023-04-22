@@ -47,3 +47,53 @@ export let Header = () => {
         </div>
     )
 }
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+import {Button, Container, Form, FormControl, Nav, Navbar, NavbarBrand, NavItem, NavLink} from "react-bootstrap";
+import logo from '../../assets/img/logo.png'
+import NavbarToggle from "react-bootstrap/NavbarToggle";
+import NavbarCollapse from "react-bootstrap/NavbarCollapse";
+
+export let Header = () => {
+    return (
+        <div className={'justify-content-center'}>
+            <Navbar className="navbar-expand-lg bg-body-tertiary"  fixed={'top'} collapseOnSelect expand={'md'} bg={'dark'} variant={'dark'}>
+                <Container>
+                    <NavbarBrand>
+                        <img src={logo}
+                             alt="Logo"
+                             height={'30'}
+                             width={'30'}
+                             className={'d-inline-block align-top'}
+                        />
+                    </NavbarBrand>
+                        <NavbarToggle type="button" data-bs-toggle="collapse"
+                                      data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                                      aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </NavbarToggle>
+                        <NavbarCollapse id="navbarTogglerDemo03">
+                            <Nav className="me-auto mb-2 mb-lg-0">
+                                <NavItem>
+                                    <NavLink className=" active" aria-current="page" href="#">Home</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className=" active" aria-current="page" href="#">Home</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className=" active" aria-current="page" href="#">Home</NavLink>
+                                </NavItem>
+                            </Nav>
+                            <Form className="d-flex" role="search">
+                                <FormControl className="me-2" type="search" placeholder="Search"
+                                       aria-label="Search"/>
+                                <Button className="outline-success" type="submit">Search</Button>
+                            </Form>
+                        </NavbarCollapse>
+                </Container>
+            </Navbar>
+        </div>
+        )
+}
