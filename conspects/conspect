@@ -1,0 +1,5 @@
+1) Кнопки
+    import { Button } from 'react-bootstrap'
+    <Button variant="success">Лалалалаал</Button>
+
+2) mr-auto - margin right auto
