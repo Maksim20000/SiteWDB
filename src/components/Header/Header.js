@@ -1,12 +1,15 @@
-import {Button, Container, Form, FormControl, Nav, Navbar, NavbarBrand, NavItem, NavLink} from "react-bootstrap";
+import {Button, Container, Form, FormControl, Nav, Navbar, NavbarBrand, NavItem, NavLink as BootstrapNavLink} from "react-bootstrap";
 import logo from '../../assets/img/ReactIcon2.png'
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
+import React from "react";
+
 
 export let Header = () => {
     return (
         <div>
-            <Navbar className="navbar-expand-lg bg-body-tertiary"  fixed={'top'} collapseOnSelect expand={'md'} bg={'dark'} variant={'dark'}>
+            {/* fixed={'top'} - фиксирует */}
+            <Navbar className="navbar-expand-lg bg-body-tertiary"  collapseOnSelect expand={'md'} bg={'dark'} variant={'dark'}>
                 <Container>
                     <NavbarBrand>
                         <img src={logo}
@@ -23,16 +26,17 @@ export let Header = () => {
                         <NavbarCollapse id="navbarTogglerDemo03">
                             <Nav className="me-auto mb-2 mb-lg-0">
                                 <NavItem>
-                                    <NavLink className=" active" aria-current="page" href="/">Home</NavLink>
+                                        <BootstrapNavLink className=" active" aria-current="page" href={'/'}>Home</BootstrapNavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className=" active" aria-current="page" href="/about">About us</NavLink>
+                                    <BootstrapNavLink className=" active" aria-current="page" href={'/about'}>About us </BootstrapNavLink>
+
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className=" active" aria-current="page" href="/Contacts">Contacts</NavLink>
+                                    <BootstrapNavLink className=" active" aria-current="page" href={"/contacts"}>Contacts</BootstrapNavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className=" active" aria-current="page" href="/blog">Blog</NavLink>
+                                    <BootstrapNavLink className=" active" aria-current="page" href={"/blog"}>Blog</BootstrapNavLink>
                                 </NavItem>
                             </Nav>
                             <Form className="d-flex" role="search">

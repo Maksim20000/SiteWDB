@@ -1,0 +1,30 @@
+import {Carousel} from "react-bootstrap";
+import {CarouselItem} from "react-bootstrap";
+import corousel1 from '../../assets/img/Corousel1.jpg'
+import corousel2 from '../../assets/img/corousel2.jpg'
+import corousel3 from '../../assets/img/corusel3.jpg'
+
+
+
+export let CarouselMann = () => {
+    return(
+        <div>
+            <Carousel>
+                <CarouselItem>
+                    <img src={corousel1} className="d-block w-100" alt="Карусель 1" />
+                </CarouselItem>
+
+
+                <CarouselItem>
+                    <img src={corousel2} className="d-block w-100" alt="Карусель 1" />
+                </CarouselItem>
+
+
+                <CarouselItem>
+                    <img src={corousel3} className="d-block w-100" alt="Карусель 1" />
+                </CarouselItem>
+
+            </Carousel>
+        </div>
+    )
+}
