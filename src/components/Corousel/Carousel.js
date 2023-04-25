@@ -10,7 +10,7 @@ export let CarouselMann = () => {
         <div>
             <Carousel>
                 <Carousel.Item>
-                    <img
+                    <img height={'870vh'}
                         className="d-block w-100"
                         src={corousel1}
                         alt="First slide"
@@ -21,7 +21,7 @@ export let CarouselMann = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
+                    <img height={'870vh'}
                         className="d-block w-100"
                         src={corousel2}
                         alt="Second slide"
@@ -33,7 +33,7 @@ export let CarouselMann = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
+                    <img height={'870vh'}
                         className="d-block w-100"
                         src={corousel3}
                         alt="Third slide"
