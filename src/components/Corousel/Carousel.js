@@ -8,7 +8,7 @@ import corousel3 from '../../assets/img/corusel3.jpg'
 export let CarouselMann = () => {
     return(
         <div>
-            <Carousel>
+            <Carousel fade>
                 <Carousel.Item>
                     <img height={'870vh'}
                         className="d-block w-100"

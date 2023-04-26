@@ -1,5 +1,5 @@
 import {Button, Container, Form, FormControl, Nav, Navbar, NavbarBrand, NavItem, NavLink as BootstrapNavLink} from "react-bootstrap";
-import logo from '../../assets/img/ReactIcon2.png'
+import logo from '../../assets/img/ReactIcon.png'
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 import React from "react";
@@ -15,7 +15,7 @@ export let Header = () => {
                         <img src={logo}
                              alt="Logo"
                              className={'d-inline-block align-top'}
-                             height={50}
+                             height={55}
                         />
                     </NavbarBrand>
                         <NavbarToggle type="button" data-bs-toggle="collapse"
