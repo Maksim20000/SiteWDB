@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SiteWDB/static/css/main.77605b2d.css",
+    "main.js": "/SiteWDB/static/js/main.6902ddf6.js",
+    "static/media/corousel2.jpg": "/SiteWDB/static/media/corousel2.39f9ac4d84d5148445a5.jpg",
+    "static/media/corusel3.jpg": "/SiteWDB/static/media/corusel3.e3a48433d139a043a96f.jpg",
+    "static/media/card1.jpg": "/SiteWDB/static/media/card1.ebd44e9beaf3c933ed2f.jpg",
+    "static/media/card2.jpg": "/SiteWDB/static/media/card2.bfedcec9aa0373a98f87.jpg",
+    "static/media/Corousel1.jpg": "/SiteWDB/static/media/Corousel1.31dc8058a5eab37d9ec7.jpg",
+    "static/media/card3.jpg": "/SiteWDB/static/media/card3.c921935fb1416af1bb38.jpg",
+    "static/media/ReactIcon.png": "/SiteWDB/static/media/ReactIcon.5f58a5ca371c2b0665db.png",
+    "index.html": "/SiteWDB/index.html",
+    "main.77605b2d.css.map": "/SiteWDB/static/css/main.77605b2d.css.map",
+    "main.6902ddf6.js.map": "/SiteWDB/static/js/main.6902ddf6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77605b2d.css",
+    "static/js/main.6902ddf6.js"
+  ]
+}
